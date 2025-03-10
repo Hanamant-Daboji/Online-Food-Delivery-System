@@ -15,7 +15,6 @@
     grid-template-columns: 2fr 1fr 1fr;
     gap: 80px;
 }
-
 .footer-content-left , .footer-content-right , .footer-content-center {
     display: flex;
     flex-direction: column;
@@ -69,4 +68,4 @@
     .footer-copyright{
         text-align: center;
     }
-} 
+}

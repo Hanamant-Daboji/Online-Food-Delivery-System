@@ -2,8 +2,7 @@ import React, { useContext } from 'react'
 import './FoodItem.css'
 import { assets } from '../../assets/assets'
 import { useState } from 'react'
-import { StoreContext } from '../../Context/StoreContext';
- 
+import { StoreContext } from '../../Context/StoreContext'
 
 function FoodItem ({id,name,price,description,image}) {
   const {cartItems,addToCart,removeFromCart,url} = useContext(StoreContext);
@@ -33,4 +32,4 @@ function FoodItem ({id,name,price,description,image}) {
   )
 }
 
-export default FoodItem;
+export default FoodItem
